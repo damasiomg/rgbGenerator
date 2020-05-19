@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap" rel="stylesheet">
+    <title>RGB Generator</title>
+</head>
+<body>
+    <div class="titlePage"><h1>RGB Generator</h1></div>
+
+    <div class="container">
+        <table>
+            <tr>
+                <td class="label-color">(R) Vermelho</td>
+                <td><input class="slider slider--red" id="red-range" type="range" min="0" max="255"/></td>
+                <td><input  id="red-input" type="text" disabled class="text-inputs"/></td>
+            </tr>
+            <tr>
+                <td class="label-color">(G) Verde</td>
+                <td><input class="slider" id="green-range" type="range" min="0" max="255"/></td>
+                <td><input id="green-input" type="text" disabled class="text-inputs"/></td>
+            </tr>
+            <tr>
+                <td class="label-color">(B) Azul</td>
+                <td><input class="slider slider--blue" id="blue-range" type="range" min="0" max="255"/></td>
+                <td><input id="blue-input" type="text" disabled class="text-inputs"/></td>
+            </tr>
+        </table>
+    
+        <div id="box-color"></div>
+    </div>
+
+
+
+   <script src="./js/app.js"></script> 
+</body>
+</html>
